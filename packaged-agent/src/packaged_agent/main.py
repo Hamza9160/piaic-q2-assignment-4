@@ -23,7 +23,7 @@ set_tracing_disabled(True)
 
 agent = Agent(
     name="simple_agent",
-    instructions="You are a helpful assistant, specialized in providing single-line responses.",
+    instructions="You are a helpful assistant, specialized in providing two-lines responses in bullet points.",
     model=llm_model
 )
 
